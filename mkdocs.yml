@@ -76,8 +76,13 @@ extra:
         -   icon: fontawesome/brands/linkedin
             link: https://www.linkedin.com/in/andresdelgadillo
 
-#extra_css:
-#    -   assets/styles.css
+extra_css:
+    -   overrides/styles.css
 
 #extra_javascript:
 #    -   assets/social-headers.js
+
+markdown_extensions:
+    -   attr_list
+    -   md_in_html
+    -   pymdownx.blocks.caption
