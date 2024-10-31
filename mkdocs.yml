@@ -22,11 +22,11 @@ nav:
 plugins:
     -   mkdocs-jupyter:
             ignore_h1_titles: True
-    - search
+    -   search
     #    -   social
     -   blog:
             authors_file: "blog/.authors.yml"
-    - tags
+    -   tags
 
 theme:
     name: material
