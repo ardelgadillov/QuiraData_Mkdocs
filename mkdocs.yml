@@ -1,0 +1,83 @@
+site_name: QuiraData
+site_url: https://quiradata.com
+#repo_url: https://github.com/ardelgadillov/sudoku
+#repo_name: ardelgadillov
+
+
+nav:
+    -   Home: index.md
+    -   Optimization:
+            - optimization/index.md
+            -   Project1: optimization/markdown.md
+            -   Project2: optimization/notebooks.ipynb
+    -   Machine Learning:
+            - machine_learning/index.md
+            -   Project1: machine_learning/markdown.md
+            -   Project2: machine_learning/notebooks.ipynb
+            -   Linear Regression: machine_learning/Supervised_Learning_Regression.ipynb
+    -   Blog:
+            - blog/index.md
+    -   About: about.md
+
+plugins:
+    -   mkdocs-jupyter:
+            ignore_h1_titles: True
+    - search
+    #    -   social
+    -   blog:
+            authors_file: "blog/.authors.yml"
+    - tags
+
+theme:
+    name: material
+
+    custom_dir: docs/overrides
+
+    palette:
+        # Palette toggle for light mode
+        -   media: "(prefers-color-scheme: light)"
+            primary: black
+            scheme: default
+            toggle:
+                icon: material/weather-night
+                name: Switch to dark mode
+
+        # Palette toggle for dark mode
+        -   media: "(prefers-color-scheme: dark)"
+            primary: black
+            scheme: slate
+            toggle:
+                icon: material/weather-sunny
+                name: Switch to light mode
+
+    font:
+        code: JetBrains Mono
+
+    logo: assets/logo/{quiradata}_light.svg
+
+    favicon: assets/logo/qd.ico
+
+    icon:
+        repo: fontawesome/brands/github
+
+    features:
+        - navigation.instant
+        - navigation.instant.progress
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.indexes
+        - search.suggest
+        - search.highlight
+
+extra:
+    social:
+        -   icon: fontawesome/brands/github
+            link: https://github.com/ardelgadillov
+        -   icon: fontawesome/brands/linkedin
+            link: https://www.linkedin.com/in/andresdelgadillo
+
+#extra_css:
+#    -   assets/styles.css
+
+#extra_javascript:
+#    -   assets/social-headers.js
