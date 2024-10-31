@@ -1,5 +1,6 @@
 site_name: QuiraData
 site_url: https://quiradata.com
+copyright: Copyright &copy; 2024 Andres Delgadillo, PhD
 #repo_url: https://github.com/ardelgadillov/sudoku
 #repo_name: ardelgadillov
 
@@ -86,3 +87,6 @@ markdown_extensions:
     -   attr_list
     -   md_in_html
     -   pymdownx.blocks.caption
+    -   pymdownx.emoji:
+            emoji_index: !!python/name:material.extensions.emoji.twemoji
+            emoji_generator: !!python/name:material.extensions.emoji.to_svg
