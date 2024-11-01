@@ -9,7 +9,7 @@ nav:
     -   Home: index.md
     -   Optimization:
             - optimization/index.md
-            -   Project1: optimization/markdown.md
+            -   Sudoku Solver: optimization/sudoku.md
             -   Project2: optimization/notebooks.ipynb
     -   Machine Learning:
             - machine_learning/index.md
