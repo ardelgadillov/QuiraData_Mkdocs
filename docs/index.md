@@ -1,37 +1,49 @@
 ---
-hide:
-    - navigation
-    - toc
-    - title
+#hide:
+#    - navigation
+#    - toc
+#    - title
+template: home.html
+title: Material for MkDocs
 ---
-<style>
-  .md-typeset h1,
-  .md-content__button {
-    display: none;
-  }
-</style>
-![Cloud light](assets/images/cloud_light.png#only-light){loading=lazy, width=100%}
-![Cloud dark](assets/images/cloud_dark.png#only-dark){loading=lazy, width=100%}
 
-<div class="grid cards" markdown>
+![Cloud light](assets/images/cloud_light.png){loading=lazy, width=100%}
 
--   :material-chart-bar:{ .lg .middle } __Data Analytics__
+<section class="full-width-section dark">
+    <div class="section-inner">
+        <div class="section-title" style="color: var(--od_red)">
+            Data Analytics <br>
+            <span class="mdi chart-bar"></span>
+        </div>
+        <div class="section-content">
+            Unlock valuable insights through data analytics, enabling you to make data-driven decisions
+        </div>
+    </div>
+</section>
 
-    ---
-
-    Unlock valuable insights through data analytics, enabling you to make data-driven decisions 
-
--   :material-chart-bell-curve:{ .lg .middle } __Operations Research__
-
-    ---
-
-    Develop mathematical optimization models to solve complex, constrained problems, 
+<section class="full-width-section light">
+    <div class="section-inner">
+        <div class="section-content">
+            Develop mathematical optimization models to solve complex, constrained problems, 
 allowing your business to make optimal decisions
+        </div>
+        <div class="section-title" style="color: var(--od_purple)">
+            Operations Research <br>
+            <span class="mdi chart-bell-curve"></span>
+        </div>
+    </div>
+</section>
 
--   :material-view-dashboard-edit:{ .lg .middle } __Custom Dashboards__
+<section class="full-width-section dark">
+    <div class="section-inner">
+        <div class="section-title" style="color: var(--od_blue)">
+            Custom Dashboards <br>
+            <span class="mdi view-dashboard-edit"></span>
+        </div>
+        <div class="section-content">
+            Develop custom dashboards and reports, providing clear insights and uncover data trends
+        </div>
+    </div>
+</section>
 
-    ---
-
-    Develop custom dashboards and reports, providing clear insights and uncover data trends
-
-</div>
+<h1></h1>
