@@ -1,8 +1,8 @@
 ---
-#hide:
-#    - navigation
-#    - toc
-#    - title
+hide:
+    - navigation
+    - toc
+    - title
 template: home.html
 title: Material for MkDocs
 ---
