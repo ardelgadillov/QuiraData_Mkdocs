@@ -72,8 +72,23 @@
         align-items: center;
     }
 
+    .parallax {
+        /* The image used */
+        background-image: url("assets/images/cloud_light.png");
+
+        /* Set a specific height */
+        min-height: 80vh;
+        width: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
     /* Media query for small screens */
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
         .section-inner {
             flex-direction: column; /* Stack title and content */
             align-items: center; /* Center align vertically */
@@ -83,7 +98,13 @@
             margin-top: 1rem; /* Add space below title */
             margin-bottom: 1rem; /* Add space below title */
         }
+
+        .parallax {
+            background-attachment: scroll;
+            min-height: 30vh;
+        }
     }
+
 </style>
 
 {% endblock %}

@@ -7,7 +7,7 @@ template: home.html
 title: Material for MkDocs
 ---
 
-![Cloud light](assets/images/cloud_light.png){loading=lazy, width=100%}
+<div class="parallax"></div>
 
 <section class="full-width-section dark">
     <div class="section-inner">
