@@ -1,7 +1,6 @@
 authors:
     Andres:
         name: Andres Delgadillo, PhD       # Author name
-        description: string # Author description
-        avatar: url         # Author avatar
-        slug: url           # Author profile slug
+        description: Data Scientist  # Author description
+        avatar: https://avatars.githubusercontent.com/ardelgadillov         # Author avatar
         url: https://www.linkedin.com/in/andresdelgadillo            # Author website URL

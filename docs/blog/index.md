@@ -1,8 +1,9 @@
 ---
-myst:
-  html_meta:
-    "description lang=en": |
-      Optimization Section.
+title: Quira Data Blog
+tags: 
+    - Optimization
+    - Data Science
+description: 
 ---
 
-# Blog1
+# Quira Data Blog
