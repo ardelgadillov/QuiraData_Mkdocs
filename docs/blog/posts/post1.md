@@ -9,7 +9,13 @@ tags:
 categories:
     - Python
     - Webapp
-description:Deploying a Dash Application on Render: A Step-by-Step Guide
+title: Deploying a Dash Application on Render A Step-by-Step Guide
+description: >- 
+   I like to create web applications in Python, especially using the Plotly Dash framework. 
+   One of my favorite projects is a Sudoku Solver that’s powered by Mixed-Integer Linear Programming 
+   (check it out at [sudoku.quiradata.com](http://sudoku.quiradata.com){:target="_blank"}). 
+   I understand the excitement of bringing a project to life on the web. 
+   In this guide, I’ll walk you through the process I used to deploy my Sudoku app on Render.
 date: 2024-11-07
 ---
 

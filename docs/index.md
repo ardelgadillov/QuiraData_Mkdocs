@@ -3,8 +3,17 @@ hide:
     - navigation
     - toc
     - title
+    - tags
 template: home.html
-title: Material for MkDocs
+title: Quira Data
+description: >-
+    Quira Data is a consulting company focus on Data Science, Optimization and Machine Learning
+    applied to electricity systems
+tags:   
+    - Data Science
+    - Optimization
+    - Electricity Markets
+    - Machine Learning
 ---
 
 <div class="parallax"></div>

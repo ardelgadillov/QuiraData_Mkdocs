@@ -1,5 +1,10 @@
 site_name: QuiraData
 site_url: https://quiradata.com
+site_author: Andres Delgadillo, PhD
+site_description: >-
+    Quira Data is a consulting company focus on Data Science, Optimization and Machine Learning
+    applied to electricity systems
+
 copyright: Copyright &copy; 2024 Andres Delgadillo, PhD
 #repo_url: https://github.com/ardelgadillov/sudoku
 #repo_name: ardelgadillov
@@ -102,3 +107,4 @@ markdown_extensions:
     -   pymdownx.inlinehilite
     -   pymdownx.snippets
     -   pymdownx.superfences
+    -   meta
