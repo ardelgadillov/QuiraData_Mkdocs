@@ -10,7 +10,7 @@ copyright: Copyright &copy; 2024 Andres Delgadillo, PhD
 #repo_name: ardelgadillov
 
 
-nav:Travel
+nav:
     -   Home: index.md
     -   Optimization:
 #            - optimization/index.md
