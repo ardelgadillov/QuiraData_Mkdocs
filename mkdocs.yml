@@ -32,9 +32,15 @@ plugins:
     -   search
     #    -   social
     -   blog:
+            blog_toc: true
+            archive_date_format: MMMM yyyy
             authors_file: "blog/.authors.yml"
     -   tags
 #    -   privacy
+#    -   enumerate-headings
+    -   mkdocs-add-teaser:
+            teaser_class: 'teaser'
+            add_to_meta: true
 
 theme:
     name: material

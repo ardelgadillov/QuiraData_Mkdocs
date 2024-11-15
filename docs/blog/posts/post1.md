@@ -8,7 +8,7 @@ tags:
     - Deployment
 categories:
     - Python
-    - Webapp
+#    - Webapp
 title: Deploying a Dash Application on Render A Step-by-Step Guide
 description: >- 
    I like to create web applications in Python, especially using the Plotly Dash framework. 
