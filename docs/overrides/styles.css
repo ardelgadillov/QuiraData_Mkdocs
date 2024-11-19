@@ -128,3 +128,18 @@
 .md-tabs__link {
   font-size: .8rem;
 }
+
+
+/* Apply styles to the sudoku table */
+table.sudoku {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+/* Standard borders for cells */
+table.sudoku th, table.sudoku td {
+    border: 1px solid gray;
+    padding: 10px;
+    vertical-align: middle; /* Vertically center content */
+}
