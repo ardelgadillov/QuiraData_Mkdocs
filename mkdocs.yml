@@ -13,7 +13,7 @@ copyright: Copyright &copy; 2024 Andres Delgadillo, PhD
 nav:
     -   Home: index.md
     -   Optimization:
-#            - optimization/index.md
+            -   optimization/index.md
             -   Sudoku Solver: optimization/sudoku.md
             -   Traveling Salesperson Problem: optimization/travel_sales.ipynb
     -   Machine Learning:
