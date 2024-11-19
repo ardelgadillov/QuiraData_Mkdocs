@@ -1,3 +1,16 @@
+---
+tags:
+   - Optimization
+   - MILP
+   - Sudoku Solver
+   - Python
+   - Pyomo
+title: Sudoku Solver using Pyomo
+description: ->
+   Using Mixed Integer Linear Programming (MILP) to solve a Sudoku puzzle is an
+   interesting application of optimization techniques.
+---
+
 # Sudoku Solver
 
 Using Mixed Integer Linear Programming (MILP) to solve a Sudoku puzzle is an
