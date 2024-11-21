@@ -26,7 +26,7 @@ Sudoku involves filling a $n^2 \times n^2 $ for $n \in \mathbb{Z}$
 - Each $n \times n$ subgrid contains the numbers 1 to $n^2$ exactly once.
 - Some cells are pre-filled with known values.
 
-## Formulating Sudoku as a MILP Problem**
+## Formulating Sudoku as a MILP Problem
 
 For Sudoku, the goal is to find a feasible solution that satisfies all constraints
 without needing an explicit optimization objective.
@@ -104,7 +104,7 @@ The following table illustrates the indexing for $n=3$.
 Define a binary decision variable $ x_{ijk} $, where:
 
 The variable $ x_{ijk} = 1 $ if digit $ k $ is placed in cell $ (i, j) $, 
-otherwise # x_{ijk} = 0 $.
+otherwise $ x_{ijk} = 0 $.
 
 #### Constraints
 

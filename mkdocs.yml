@@ -16,6 +16,7 @@ nav:
             -   optimization/index.md
             -   Sudoku Solver: optimization/sudoku.md
             -   Traveling Salesperson Problem: optimization/travel_sales.ipynb
+            -   Portfolio Optimization: optimization/portfolio_optimization.ipynb
     -   Machine Learning:
 #            - machine_learning/index.md
             -   Project1: machine_learning/markdown.md

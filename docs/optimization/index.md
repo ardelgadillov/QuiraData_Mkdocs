@@ -27,5 +27,24 @@ your understanding of optimization and its applications.
 
 ## Models
 
-### [Sudoku Solver](sudoku.md)
-### [Traveling Salesperson Problem](travel_sales.ipynb)
+<div class="grid cards" markdown>
+
+-   :material-grid:{ .lg .middle } __[Sudoku Solver](sudoku.md)__
+
+    ---
+
+    How to solve Sudoku puzzles using Mixed Integer Linear Programming (MILP)?
+
+-   :fontawesome-solid-route:{ .lg .middle } __[Traveling Salesperson Problem](travel_sales.ipynb)__
+
+    ---
+
+    How to find the most efficient route with the goal of minimizing travel cost
+
+-   :material-cash-edit:{ .lg .middle } __[Portfolio Optimization](portfolio_optimization.ipynb)__
+
+    ---
+
+    How to build a portfolio that gives the best return with the least amount of risk?
+
+</div>
