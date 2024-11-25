@@ -1,0 +1,95 @@
+
+.md-main__inner {
+    margin: 0;
+    max-width: 100%;
+}
+
+.md-container {
+    max-width: 100%;
+}
+
+.md-content {
+    padding: 0 !important;
+}
+
+.md-content__inner {
+    margin: 0 !important;
+}
+
+/* Full-width section */
+.full-width-section {
+    width: 100%;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    box-sizing: border-box;
+    text-align: center; /* Center align text inside each div */
+    padding: 6rem 0.5rem;
+}
+
+.dark {
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+}
+
+.light {
+    background-color: white; /* Background color */
+    color: black; /* Text color */
+}
+
+/* Title styling */
+.section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    flex: 1; /* Allows more space for the title */
+    line-height: 1;
+}
+
+/* Text content styling */
+.section-content {
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Wrapping container to center items in section */
+.section-inner {
+    display: flex;
+    max-width: 70rem; /* Optional max-width for readability */
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("assets/images/cloud_light.png");
+
+    /* Set a specific height */
+    min-height: 80vh;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Media query for small screens */
+@media (max-width: 1000px) {
+    .section-inner {
+        flex-direction: column; /* Stack title and content */
+        align-items: center; /* Center align vertically */
+    }
+
+    .section-title {
+        margin-top: 1rem; /* Add space below title */
+        margin-bottom: 1rem; /* Add space below title */
+    }
+
+    .parallax {
+        background-attachment: scroll;
+        min-height: 30vh;
+    }
+}
